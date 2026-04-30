@@ -1,13 +1,11 @@
-TESTE1
-  Trabalho de Algoritmos de Ordenação
-
+# Trabalho de Algoritmos de Ordenação
  Integrantes do Grupo
 
-Joel Ali Viano
-Américo Facitela Penga
-João Filipe João
-Kelven Jossamo
-Letícia Figueira
+* Joel Ali Viano
+* Américo Facitela Penga
+* João Filipe João
+* Kelven Jossamo
+* Letícia Figueira
 
 
 
@@ -19,13 +17,12 @@ Este trabalho tem como objetivo implementar e analisar algoritmos de ordenação
 
  Algoritmos Implementados
 
-🔹 Bubble Sort
+ Bubble Sort
 
 O Bubble Sort é um algoritmo de ordenação simples que compara elementos adjacentes e os troca de posição caso estejam na ordem incorreta.
 
 ✔ Funciona percorrendo o vetor várias vezes
 ✔ A cada passagem, o maior elemento "sobe" para o final
-
 
 
  Bubble Sort Otimizado
@@ -45,7 +42,7 @@ Nesta versão, o algoritmo verifica se houve troca durante a execução.
 | Selection Sort | O(n²)       | O(n²)      | O(n²)     |
 | Insertion Sort | O(n)        | O(n²)      | O(n²)     |
 
-
+---
 
  Conclusão
 
