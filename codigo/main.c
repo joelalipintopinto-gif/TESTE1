@@ -75,7 +75,9 @@ int main() {
 }
 }
 
+
 Exercicio 3
+
 
 #include <stdio.h>
 
@@ -115,6 +117,46 @@ int main() {
 
     return 0;
 }
+
+
+Exercicio 4
+
+#include <stdio.h>
+
+// Estrutura Aluno
+struct Aluno {
+    char nome[50];
+    float media;
+};
+
+// Função que verifica aprovação
+int estaAprovado(struct Aluno a) {
+    if (a.media >= 10) {
+        return 1; // aprovado
+    } else {
+        return 0; // reprovado
+    }
+}
+
+int main() {
+    struct Aluno aluno;
+
+    printf("Nome do aluno: ");
+    scanf(" %[^\n]", aluno.nome);
+
+    printf("Média: ");
+    scanf("%f", &aluno.media);
+
+    if (estaAprovado(aluno)) {
+        printf("%s está APROVADO.\n", aluno.nome);
+    } else {
+        printf("%s está REPROVADO.\n", aluno.nome);
+    }
+
+    return 0;
+}
+
+
 
 Exercicio 5
 
