@@ -1,9 +1,6 @@
-/*
+
  * bubble_sort.c
  * Implementação do algoritmo Bubble Sort
- * Curso: Licenciatura em Informática
- * Disciplina: Estrutura de Dados e Algoritmos
- */
 
 #include <stdio.h>
 
